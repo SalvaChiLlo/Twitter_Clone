@@ -73,7 +73,7 @@ aside input {
   align-items: baseline;
 }
 
-.icon-search {
+.searchContainer .icon-search {
   background-color: rgb(37, 51, 65);
   font-size: 20px;
   width: fit-content;
