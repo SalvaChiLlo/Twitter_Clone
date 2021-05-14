@@ -1,0 +1,93 @@
+header {
+  width: fit-content;
+  padding: 20px;
+  position: fixed;
+  left: calc(50% - 35vw);
+  top: 0;
+  bottom: 0;
+}
+
+.navegacion {
+  position: relative;
+  height: 100vh;
+}
+
+header .logo {
+  border-radius: 50%;
+  width: 50px;
+}
+
+header li {
+  list-style: none;
+  width: fit-content;
+  margin: 10px 0px;
+  padding: 10px 20px;
+  background-color: transparent;
+  border-radius: 500px;
+}
+
+header li:hover {
+  background-color: rgba(29, 161, 242, 0.2);
+  color: rgb(29, 161, 242);
+
+}
+
+header li a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+header .twitear {
+  padding: 15px;
+  width: 100%;
+  color: white;
+  background-color: rgb(29, 161, 242);
+  border-radius: 500px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+header a {
+  font-weight: bold;
+  font-size: larger;
+}
+
+.userContainer {
+  display: flex;
+  position: absolute;
+  margin-bottom: 10px;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+#fotoUsuario {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.userInfo {
+  padding: 10px;
+}
+
+.userInfo h1{
+  font-size: 20px;
+}
+.userInfo h2{
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+header .fa {
+  color: inherit;
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

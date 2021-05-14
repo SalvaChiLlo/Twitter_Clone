@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twitter Clone</title>
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styleNav.css">
+  <link rel="stylesheet" href="styleSection.css">
+  <link rel="stylesheet" href="styleAside.css">
+</head>
+
+<body>
+  <header>
+    <div class="navigation">
+      <nav>
+        <img src="images/twitter.png" alt="twitter_logo" class="logo">
+        <ul>
+          <li><i class="fa icon-home"></i><a href="#">Inicio</a></li>
+          <li><i class="fa icon-search"></i><a href="#">Explorar</a></li>
+          <li><i class="fa icon-bell"></i><a href="#">Notificaciones</a></li>
+          <li><i class="fa icon-inbox"></i><a href="#">Mensajes</a></li>
+          <li><i class="fa icon-bookmark-empty"></i><a href="#">Guardados</a></li>
+          <li><i class="fa icon-list-alt"></i><a href="#">Listas</a></li>
+          <li><i class="fa icon-user"></i><a href="#">Perfil</a></li>
+          <li><i class="fa icon-ellipsis-horizontal"></i><a href="#">Más Opciones</a></li>
+          <button class="twitear">Twittear</button>
+        </ul>
+      </nav>
+      <div class="userContainer">
+        <img src="images/perfil.jpg" alt="foto de perfil" id="fotoUsuario">
+        <div class="userInfo">
+          <h1 class="username">salvachillo</h1>
+          <h2 class="arroba">@SalvaChLl</h2>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="formContainer">
+      <div class="form">
+        <img src="images/perfil.jpg" alt="">
+        <textarea id="textoTweet" placeholder="¿Qué está pasando?"></textarea>
+      </div>
+      <div class="formMenu">
+        <button class="formButtons icon-picture"></button>
+        <button class="formButtons icon-mobile-phone"></button>
+        <button class="formButtons icon-indent-right"></button>
+        <button class="formButtons icon-smile"></button>
+        <button class="formButtons icon-calendar-empty"></button>
+        <button class="formButtons send">Twittear</button>
+      </div>
+    </div>
+    <article>
+      <div class="tweet">
+        <img src="images/perfil.jpg" alt="">
+        <div class="tweetContent">
+          <h1>salvachillo</h1>
+          <h2>@SalvaChLl</h2>
+          <time datetime="14-05-2021">17h</time>
+          <p class="message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur ipsum aperiam modi,
+            delectus quisquam
+            non dolorum, perspiciatis alias repellat dolor adipisci? Minima architecto ipsum assumenda nihil nostrum
+            natus! Nobis molestiae quae iure, porro saepe quis? Laudantium illo nobis perferendis porro eos voluptatibus
+            explicabo odit tenetur. Delectus officia eius soluta, veniam enim deserunt eligendi, amet sequi voluptates
+            aliquam iste similique. Iusto.</p>
+        </div>
+      </div>
+      <div class="tweetMenu">
+        <button class="tweetButtons icon-reply"></button>
+        <button class="tweetButtons icon-retweet"></button>
+        <button class="tweetButtons icon-heart-empty"></button>
+        <button class="tweetButtons icon-share-alt"></button>
+      </div>
+    </article>
+    <article>
+      <div class="tweet">
+        <img src="images/perfil.jpg" alt="">
+        <div class="tweetContent">
+          <h1>salvachillo</h1>
+          <h2>@SalvaChLl</h2>
+          <time datetime="14-05-2021">17h</time>
+          <p class="message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur ipsum aperiam modi,
+            delectus quisquam
+            non dolorum, perspiciatis alias repellat dolor adipisci? Minima architecto ipsum assumenda nihil nostrum
+            natus! Nobis molestiae quae iure, porro saepe quis? Laudantium illo nobis perferendis porro eos voluptatibus
+            explicabo odit tenetur. Delectus officia eius soluta, veniam enim deserunt eligendi, amet sequi voluptates
+            aliquam iste similique. Iusto. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas aut,
+            minima hic unde quam neque id dolorem dolor harum numquam?</p>
+        </div>
+      </div>
+      <div class="tweetMenu">
+        <button class="tweetButtons icon-reply"></button>
+        <button class="tweetButtons icon-retweet"></button>
+        <button class="tweetButtons icon-heart-empty"></button>
+        <button class="tweetButtons icon-share-alt"></button>
+      </div>
+    </article>
+    <article>
+      <div class="tweet">
+        <img src="images/perfil.jpg" alt="">
+        <div class="tweetContent">
+          <h1>salvachillo</h1>
+          <h2>@SalvaChLl</h2>
+          <time datetime="14-05-2021">17h</time>
+          <p class="message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur ipsum aperiam modi,
+            delectus quisquam
+            non dolorum, perspiciatis alias repellat dolor adipisci? Minima architecto ipsum assumenda nihil nostrum
+            natus! Nobis molestiae quae iure, porro saepe quis? Laudantium illo nobis perferendis porro eos voluptatibus
+            explicabo odit tenetur. Delectus officia eius soluta, veniam enim deserunt eligendi, amet sequi voluptates
+            aliquam iste similique. Iusto.</p>
+        </div>
+      </div>
+      <div class="tweetMenu">
+        <button class="tweetButtons icon-reply"></button>
+        <button class="tweetButtons icon-retweet"></button>
+        <button class="tweetButtons icon-heart-empty"></button>
+        <button class="tweetButtons icon-share-alt"></button>
+      </div>
+    </article>
+    <article>
+      <div class="tweet">
+        <img src="images/perfil.jpg" alt="">
+        <div class="tweetContent">
+          <h1>salvachillo</h1>
+          <h2>@SalvaChLl</h2>
+          <time datetime="14-05-2021">17h</time>
+          <p class="message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur ipsum aperiam modi,
+            delectus quisquam
+            non dolorum, perspiciatis alias repellat dolor adipisci? Minima architecto ipsum assumenda nihil nostrum
+            natus! Nobis molestiae quae iure, porro saepe quis? Laudantium illo nobis perferendis porro eos voluptatibus
+            explicabo odit tenetur. Delectus officia eius soluta, veniam enim deserunt eligendi, amet sequi voluptates
+            aliquam iste similique. Iusto.</p>
+        </div>
+      </div>
+      <div class="tweetMenu">
+        <button class="tweetButtons icon-reply"></button>
+        <button class="tweetButtons icon-retweet"></button>
+        <button class="tweetButtons icon-heart-empty"></button>
+        <button class="tweetButtons icon-share-alt"></button>
+      </div>
+    </article>
+    <article>
+      <div class="tweet">
+        <img src="images/perfil.jpg" alt="">
+        <div class="tweetContent">
+          <h1>salvachillo</h1>
+          <h2>@SalvaChLl</h2>
+          <time datetime="14-05-2021">17h</time>
+          <p class="message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur ipsum aperiam modi,
+            delectus quisquam
+            non dolorum, perspiciatis alias repellat dolor adipisci? Minima architecto ipsum assumenda nihil nostrum
+            natus! Nobis molestiae quae iure, porro saepe quis? Laudantium illo nobis perferendis porro eos voluptatibus
+            explicabo odit tenetur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab, cupiditate! Delectus
+            officia eius soluta, veniam enim deserunt eligendi, amet sequi voluptates
+            aliquam iste similique. Iusto.</p>
+        </div>
+      </div>
+      <div class="tweetMenu">
+        <button class="tweetButtons icon-reply"></button>
+        <button class="tweetButtons icon-retweet"></button>
+        <button class="tweetButtons icon-heart-empty"></button>
+        <button class="tweetButtons icon-share-alt"></button>
+      </div>
+    </article>
+    <article>
+      <div class="tweet">
+        <img src="images/perfil.jpg" alt="">
+        <div class="tweetContent">
+          <h1>salvachillo</h1>
+          <h2>@SalvaChLl</h2>
+          <time datetime="14-05-2021">17h</time>
+          <p class="message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur ipsum aperiam modi,
+            delectus quisquam
+            non dolorum, perspiciatis alias repellat dolor adipisci? Minima architecto ipsum assumenda nihil nostrum
+            natus! Nobis molestiae quae iure, porro saepe quis? Laudantium illo nobis perferendis porro eos voluptatibus
+            explicabo odit tenetur. Delectus officia eius soluta, veniam enim deserunt eligendi, amet sequi voluptates
+            aliquam iste similique. Iusto.</p>
+        </div>
+      </div>
+      <div class="tweetMenu">
+        <button class="tweetButtons icon-reply"></button>
+        <button class="tweetButtons icon-retweet"></button>
+        <button class="tweetButtons icon-heart-empty"></button>
+        <button class="tweetButtons icon-share-alt"></button>
+      </div>
+    </article>
+    <article>
+      <div class="tweet">
+        <img src="images/perfil.jpg" alt="">
+        <div class="tweetContent">
+          <h1>salvachillo</h1>
+          <h2>@SalvaChLl</h2>
+          <time datetime="14-05-2021">17h</time>
+          <p class="message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur ipsum aperiam modi,
+            delectus quisquam
+            non dolorum, perspiciatis alias repellat dolor adipisci? Minima architecto ipsum assumenda nihil nostrum
+            natus! Nobis molestiae quae iure, porro saepe quis? Laudantium illo nobis perferendis porro eos voluptatibus
+            explicabo odit tenetur. Delectus officia eius soluta, veniam enim deserunt eligendi, amet sequi voluptates
+            aliquam iste similique. Iusto.</p>
+        </div>
+      </div>
+      <div class="tweetMenu">
+        <button class="tweetButtons icon-reply"></button>
+        <button class="tweetButtons icon-retweet"></button>
+        <button class="tweetButtons icon-heart-empty"></button>
+        <button class="tweetButtons icon-share-alt"></button>
+      </div>
+    </article>
+    <article>
+      <div class="tweet">
+        <img src="images/perfil.jpg" alt="">
+        <div class="tweetContent">
+          <h1>salvachillo</h1>
+          <h2>@SalvaChLl</h2>
+          <time datetime="14-05-2021">17h</time>
+          <p class="message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur ipsum aperiam modi,
+            delectus quisquam
+            non dolorum, perspiciatis alias repellat dolor adipisci? Minima architecto ipsum assumenda nihil nostrum
+            natus! Nobis molestiae quae iure, porro saepe quis? Laudantium illo nobis perferendis porro eos voluptatibus
+            explicabo odit tenetur. Delectus officia eius soluta, veniam enim deserunt eligendi, amet sequi voluptates
+            aliquam iste similique. Iusto.</p>
+        </div>
+      </div>
+      <div class="tweetMenu">
+        <button class="tweetButtons icon-reply"></button>
+        <button class="tweetButtons icon-retweet"></button>
+        <button class="tweetButtons icon-heart-empty"></button>
+        <button class="tweetButtons icon-share-alt"></button>
+      </div>
+    </article>
+    <article>
+      <div class="tweet">
+        <img src="images/perfil.jpg" alt="">
+        <div class="tweetContent">
+          <h1>salvachillo</h1>
+          <h2>@SalvaChLl</h2>
+          <time datetime="14-05-2021">17h</time>
+          <p class="message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur ipsum aperiam modi,
+            delectus quisquam
+            non dolorum, perspiciatis alias repellat dolor adipisci? Minima architecto ipsum assumenda nihil nostrum
+            natus! Nobis molestiae Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt assumenda, soluta
+            error, aliquid autem id nam maxime ratione sit quam aspernatur eius ut vero nobis incidunt repellat in illum
+            minima? quae iure, porro saepe quis? Laudantium illo nobis perferendis porro eos voluptatibus
+            explicabo odit tenetur. Delectus officia eius soluta, veniam enim deserunt eligendi, amet sequi voluptates
+            aliquam iste similique. Iusto.</p>
+        </div>
+      </div>
+      <div class="tweetMenu">
+        <button class="tweetButtons icon-reply"></button>
+        <button class="tweetButtons icon-retweet"></button>
+        <button class="tweetButtons icon-heart-empty"></button>
+        <button class="tweetButtons icon-share-alt"></button>
+      </div>
+    </article>
+    <article>
+      <div class="tweet">
+        <img src="images/perfil.jpg" alt="">
+        <div class="tweetContent">
+          <h1>salvachillo</h1>
+          <h2>@SalvaChLl</h2>
+          <time datetime="14-05-2021">17h</time>
+          <p class="message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur ipsum aperiam modi,
+            delectus quisquam
+            non dolorum, perspiciatis alias repellat dolor adipisci? Minima architecto ipsum assumenda nihil nostrum
+            natus! Nobis molestiae quae iure, porro saepe quis? Laudantium illo nobis perferendis porro eos voluptatibus
+            explicabo odit tenetur. Delectus officia eius soluta, veniam enim deserunt eligendi, amet sequi voluptates
+            aliquam iste similique. Iusto.</p>
+        </div>
+      </div>
+      <div class="tweetMenu">
+        <button class="tweetButtons icon-reply"></button>
+        <button class="tweetButtons icon-retweet"></button>
+        <button class="tweetButtons icon-heart-empty"></button>
+        <button class="tweetButtons icon-share-alt"></button>
+      </div>
+    </article>
+    <article>
+      <div class="tweet">
+        <img src="images/perfil.jpg" alt="">
+        <div class="tweetContent">
+          <h1>salvachillo</h1>
+          <h2>@SalvaChLl</h2>
+          <time datetime="14-05-2021">17h</time>
+          <p class="message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur ipsum aperiam modi,
+            delectus quisquam
+            non dolorum, perspiciatis alias repellat dolor adipisci? Minima architecto ipsum assumenda nihil nostrum
+            natus! Nobis molestiae quae iure, porro saepe quis? Laudantium illo nobis perferendis porro eos voluptatibus
+            explicabo odit tenetur. Delectus officia eius soluta, veniam enim deserunt eligendi, amet sequi voluptates
+            aliquam iste similique. Iusto.</p>
+        </div>
+      </div>
+      <div class="tweetMenu">
+        <button class="tweetButtons icon-reply"></button>
+        <button class="tweetButtons icon-retweet"></button>
+        <button class="tweetButtons icon-heart-empty"></button>
+        <button class="tweetButtons icon-share-alt"></button>
+      </div>
+    </article>
+    <article>
+      <div class="tweet">
+        <img src="images/perfil.jpg" alt="">
+        <div class="tweetContent">
+          <h1>salvachillo</h1>
+          <h2>@SalvaChLl</h2>
+          <time datetime="14-05-2021">17h</time>
+          <p class="message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur ipsum aperiam modi,
+            delectus quisquam
+            non dolorum, perspiciatis alias repellat dolor adipisci? Minima architecto ipsum assumenda nihil nostrum
+            natus! Nobis molestiae quae iure, porro saepe quis? Laudantium illo nobis perferendis porro eos voluptatibus
+            explicabo odit tenetur. Delectus officia eius soluta, veniam enim deserunt eligendi, amet sequi voluptates
+            aliquam iste similique. Iusto.</p>
+        </div>
+      </div>
+      <div class="tweetMenu">
+        <button class="tweetButtons icon-reply"></button>
+        <button class="tweetButtons icon-retweet"></button>
+        <button class="tweetButtons icon-heart-empty"></button>
+        <button class="tweetButtons icon-share-alt"></button>
+      </div>
+    </article>
+    <article>
+      <div class="tweet">
+        <img src="images/perfil.jpg" alt="">
+        <div class="tweetContent">
+          <h1>salvachillo</h1>
+          <h2>@SalvaChLl</h2>
+          <time datetime="14-05-2021">17h</time>
+          <p class="message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur ipsum aperiam modi,
+            delectus quisquam
+            non dolorum, perspiciatis alias repellat dolor adipisci? Minima architecto ipsum assumenda nihil nostrum
+            natus! Nobis molestiae quae iure, porro saepe quis? Laudantium illo nobis perferendis porro eos voluptatibus
+            explicabo odit tenetur. Delectus officia eius soluta, veniam enim deserunt eligendi, amet sequi voluptates
+            aliquam iste similique. Iusto.</p>
+        </div>
+      </div>
+      <div class="tweetMenu">
+        <button class="tweetButtons icon-reply"></button>
+        <button class="tweetButtons icon-retweet"></button>
+        <button class="tweetButtons icon-heart-empty"></button>
+        <button class="tweetButtons icon-share-alt"></button>
+      </div>
+    </article>
+    <article>
+      <div class="tweet">
+        <img src="images/perfil.jpg" alt="">
+        <div class="tweetContent">
+          <h1>salvachillo</h1>
+          <h2>@SalvaChLl</h2>
+          <time datetime="14-05-2021">17h</time>
+          <p class="message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur ipsum aperiam modi,
+            delectus quisquam
+            non dolorum, perspiciatis alias repellat dolor adipisci? Minima architecto ipsum assumenda nihil nostrum
+            natus! Nobis molestiae quae iure, porro saepe quis? Laudantium illo nobis perferendis porro eos voluptatibus
+            explicabo odit tenetur. Delectus officia eius soluta, veniam enim deserunt eligendi, amet sequi voluptates
+            aliquam iste similique. Iusto.</p>
+        </div>
+      </div>
+      <div class="tweetMenu">
+        <button class="tweetButtons icon-reply"></button>
+        <button class="tweetButtons icon-retweet"></button>
+        <button class="tweetButtons icon-heart-empty"></button>
+        <button class="tweetButtons icon-share-alt"></button>
+      </div>
+    </article>
+    <article>
+      <div class="tweet">
+        <img src="images/perfil.jpg" alt="">
+        <div class="tweetContent">
+          <h1>salvachillo</h1>
+          <h2>@SalvaChLl</h2>
+          <time datetime="14-05-2021">17h</time>
+          <p class="message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur ipsum aperiam modi,
+            delectus quisquam
+            non dolorum, perspiciatis alias repellat dolor adipisci? Minima architecto ipsum assumenda nihil nostrum
+            natus! Nobis molestiae quae iure, porro saepe quis? Laudantium illo nobis perferendis porro eos voluptatibus
+            explicabo odit tenetur. Delectus officia eius soluta, veniam enim deserunt eligendi, amet sequi voluptates
+            aliquam iste similique. Iusto.</p>
+        </div>
+      </div>
+      <div class="tweetMenu">
+        <button class="tweetButtons icon-reply"></button>
+        <button class="tweetButtons icon-retweet"></button>
+        <button class="tweetButtons icon-heart-empty"></button>
+        <button class="tweetButtons icon-share-alt"></button>
+      </div>
+    </article>
+    <article>
+      <div class="tweet">
+        <img src="images/perfil.jpg" alt="">
+        <div class="tweetContent">
+          <h1>salvachillo</h1>
+          <h2>@SalvaChLl</h2>
+          <time datetime="14-05-2021">17h</time>
+          <p class="message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur ipsum aperiam modi,
+            delectus quisquam
+            non dolorum, perspiciatis alias repellat dolor adipisci? Minima architecto ipsum assumenda nihil nostrum
+            natus! Nobis molestiae quae iure, porro saepe quis? Laudantium illo nobis perferendis porro eos voluptatibus
+            explicabo odit tenetur. Delectus officia eius soluta, veniam enim deserunt eligendi, amet sequi voluptates
+            aliquam iste similique. Iusto.</p>
+        </div>
+      </div>
+      <div class="tweetMenu">
+        <button class="tweetButtons icon-reply"></button>
+        <button class="tweetButtons icon-retweet"></button>
+        <button class="tweetButtons icon-heart-empty"></button>
+        <button class="tweetButtons icon-share-alt"></button>
+      </div>
+    </article>
+    <article>
+      <div class="tweet">
+        <img src="images/perfil.jpg" alt="">
+        <div class="tweetContent">
+          <h1>salvachillo</h1>
+          <h2>@SalvaChLl</h2>
+          <time datetime="14-05-2021">17h</time>
+          <p class="message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur ipsum aperiam modi,
+            delectus quisquam
+            non dolorum, perspiciatis alias repellat dolor adipisci? Minima architecto ipsum assumenda nihil nostrum
+            natus! Nobis molestiae quae iure, porro saepe quis? Laudantium illo nobis perferendis porro eos voluptatibus
+            explicabo odit tenetur. Delectus officia eius soluta, veniam enim deserunt eligendi, amet sequi voluptates
+            aliquam iste similique. Iusto.</p>
+        </div>
+      </div>
+      <div class="tweetMenu">
+        <button class="tweetButtons icon-reply"></button>
+        <button class="tweetButtons icon-retweet"></button>
+        <button class="tweetButtons icon-heart-empty"></button>
+        <button class="tweetButtons icon-share-alt"></button>
+      </div>
+    </article>
+    <article>
+      <div class="tweet">
+        <img src="images/perfil.jpg" alt="">
+        <div class="tweetContent">
+          <h1>salvachillo</h1>
+          <h2>@SalvaChLl</h2>
+          <time datetime="14-05-2021">17h</time>
+          <p class="message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur ipsum aperiam modi,
+            delectus quisquam
+            non dolorum, perspiciatis alias repellat dolor adipisci? Minima architecto ipsum assumenda nihil nostrum
+            natus! Nobis molestiae quae iure, porro saepe quis? Laudantium illo nobis perferendis porro eos voluptatibus
+            explicabo odit tenetur. Delectus officia eius soluta, veniam enim deserunt eligendi, amet sequi voluptates
+            aliquam iste similique. Iusto.</p>
+        </div>
+      </div>
+      <div class="tweetMenu">
+        <button class="tweetButtons icon-reply"></button>
+        <button class="tweetButtons icon-retweet"></button>
+        <button class="tweetButtons icon-heart-empty"></button>
+        <button class="tweetButtons icon-share-alt"></button>
+      </div>
+    </article>
+  </section>
+
+
+  <aside class="barraLateral">
+    <div class="navigation">
+      <div class="searchContainer">
+        <i class="icon-search"></i>
+        <input type="search" id="busqueda" placeholder="Buscar en Twitter">
+      </div>
+      <div>
+        <h1 class="noticias">Qué está pasando</h1>
+        <article>
+          <div class="content">
+            <div>
+              <h2>Mundo · <time datetime="14-05-2021">Anoche</time></h2>
+              <h1>6 series canceladas que merecen mucho la pena (y todavía las puedes ver en streaming)</h1>
+            </div>
+            <img src="images/side.jpg" alt="Imagen de noticia">
+          </div>
+          <p>9.771 Tweets</p>
+        </article>
+        <article>
+          <div class="content">
+            <div>
+              <h2>Mundo · <time datetime="14-05-2021">Anoche</time></h2>
+              <h1>6 series canceladas que merecen mucho la pena (y todavía las puedes ver en streaming)</h1>
+            </div>
+            <img src="images/side.jpg" alt="Imagen de noticia">
+          </div>
+          <p>9.771 Tweets</p>
+        </article>
+        <article>
+          <div class="content">
+            <div>
+              <h2>Mundo · <time datetime="14-05-2021">Anoche</time></h2>
+              <h1>6 series canceladas que merecen mucho la pena (y todavía las puedes ver en streaming)</h1>
+            </div>
+            <img src="images/side.jpg" alt="Imagen de noticia">
+          </div>
+          <p>9.771 Tweets</p>
+        </article>
+        <article>
+          <div class="content">
+            <div>
+              <h2>Mundo · <time datetime="14-05-2021">Anoche</time></h2>
+              <h1>6 series canceladas que merecen mucho la pena (y todavía las puedes ver en streaming)</h1>
+            </div>
+            <img src="images/side.jpg" alt="Imagen de noticia">
+          </div>
+          <p>9.771 Tweets</p>
+        </article>
+      </div>
+    </div>
+    <h1 class="noticias">Mostrar más</h1>
+  </aside>
+</body>
+
+</html>

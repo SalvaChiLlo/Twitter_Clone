@@ -1,0 +1,107 @@
+section {
+  margin: 0 auto;
+}
+
+.formContainer, article {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  width: 35vw;
+  padding: 5px;
+}
+
+.form {
+  display: flex;
+  align-items: flex-start;
+}
+
+#textoTweet {
+  width: 100%;
+  height: 150px;
+}
+
+.form img {
+  margin: 5px;
+  border-radius: 50%;
+}
+
+.form textarea {
+  padding: 5px;
+  background-color: rgb(37, 51, 65);
+  border: none;
+  font-size: 25px;
+  color: #fff;
+}
+
+.formMenu {
+  position: relative;
+  height: 50px;
+}
+
+.tweetMenu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.formButtons, .tweetButtons {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 50%;
+  margin: 5px;
+  background-color: transparent;
+  font-size: 25px;
+  color: rgba(29, 161, 242, 1.00);
+}
+
+.formButtons:first-child, .tweetButtons:first-child {
+  margin-left: 80px;
+}
+
+.formButtons:last-child {
+  position: absolute;
+  right: 20px;
+  background-color: rgba(29, 161, 242, 1.00);
+  color: white;
+  width: auto;
+  height: auto;
+  border-radius: 0;
+  top: 0;
+  bottom: 0;
+  font-size: 15px;
+  font-weight: bolder;
+  padding: 10px 30px;
+  border-radius: 200px;
+}
+
+.tweetButtons:last-child {
+  margin-right: 10px;
+}
+
+.tweet {
+  display: flex;
+}
+
+.tweet img {
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.tweet img, .tweet h1, .tweet h2 {
+  display: inline;
+}
+
+.tweet h1 {
+  color: white;
+  font-size: 20px;
+}
+
+.tweet h2::after {
+  content: ' · ';
+}
+
+.tweet h2, .tweet time  {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 15px;
+}
