@@ -24,6 +24,7 @@ header li {
   padding: 10px 20px;
   background-color: transparent;
   border-radius: 500px;
+  cursor: pointer;
 }
 
 header li:hover {
