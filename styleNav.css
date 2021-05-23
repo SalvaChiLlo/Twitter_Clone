@@ -2,7 +2,7 @@ header {
   width: fit-content;
   padding: 20px;
   position: fixed;
-  left: calc(50% - 35vw);
+  left: calc(50% - 50vw);
   top: 0;
   bottom: 0;
 }
@@ -91,4 +91,27 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media(max-height: 700px) {
+  header .fa {
+    font-size: 20px;
+  }
+  .userInfo h1{
+    font-size: 15px;
+  }
+  .userInfo h2{
+    font-size: 10px;
+  }
+  header li a {
+    font-size: 20px;
+  }
+  
+  header .twitear {
+    font-size: 15px;
+  }
+  
+  header a {
+    font-size: large;
+  }
 }
